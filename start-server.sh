@@ -1,0 +1,1 @@
+serve -l 8001 /home/vsftpd
