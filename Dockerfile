@@ -18,7 +18,7 @@ VOLUME /var/log/vsftpd
 
 RUN npm i -g serve --registry=https://registry.npm.taobao.org
 
-RUN cat /tmp/dir.jst > /usr/lib/node_modules/serve/node_modules/serve-handler/src/directory.jst
+RUN cat /tmp/dir.jst > /usr/local/lib/node_modules/serve/node_modules/serve-handler/src/directory.jst
 
 ENV FTP_USER=bosscai 
 ENV FTP_PASS=123 
